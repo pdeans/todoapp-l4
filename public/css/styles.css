@@ -1,0 +1,71 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   padding: 25px 0;
+   background: #d1d1d1;
+}
+.container {
+   width: 65%;
+   max-width: 425px;
+   margin: 0 auto;
+   background: #efefef;
+   border: 1px solid #ccc;
+   padding: 25px;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+form {
+   margin: 0;
+}
+form input {
+   border-radius: 4px;
+   display: block;
+   margin: 0 0 12px 0;
+   border: 1px solid #b5b5b5;
+   background: white;
+   padding: 5px;
+}
+form input:last-child {
+   margin: 0;
+}
+form input[type=submit]:hover {
+   background: #e5e5e5;
+   cursor: pointer;
+}
+form input[type=checkbox] {
+   display: inline;
+   margin-right: 10px;
+}
+p.error {
+   color: #aa0000;
+   margin: 0 0 12px 0;
+}
+ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+ul li {
+   line-height: 40px;
+}
+h1 {
+   margin: 0 0 20px 0;
+   padding: 0 0 5px 0;
+   font-size: 25px;
+   color: #41546c;
+   border-bottom: 1px solid #ccc;
+}
+a:link, a:visited {
+   color: #4e7ea7;
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: underline;
+}
+a.delete {
+   color: red;
+}
+
+
+
+
